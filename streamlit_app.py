@@ -1,4 +1,4 @@
-st.header("🎯 今回の的中期待値 判定結果")
+"🎯 今回の的中期待値 判定結果")
 
 entered_horses = set([a_m, b_m, c_m, pt_m] + i_m + [x.strip() for x in p_m.split(',') if x.strip()])
 num_to_rank = {v: k for k, v in pop_m.items() if v and v.strip()}

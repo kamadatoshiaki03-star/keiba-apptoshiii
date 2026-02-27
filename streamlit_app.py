@@ -1,4 +1,4 @@
-num_to_rank = {v: k for k, v in pop_m.items() if v and v.strip()}
+: k for k, v in pop_m.items() if v and v.strip()}
 
 if not any(entered_horses):
     st.write("馬番を入力すると、最強の的中根拠が自動で表示されます。")

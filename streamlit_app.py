@@ -1,13 +1,4 @@
-: k for k, v in pop_m.items() if v and v.strip()}
-
-if not any(entered_horses):
-    st.write("馬番を入力すると、最強の的中根拠が自動で表示されます。")
-else:
-    # 軸馬1着、推奨人気、ABCワイドの全体実績を表示
-    if a_m or b_m: st.warning(f"💡 **軸馬どちらか1着実績：{d.get('axis_win')}**")
-    if any(num_to_rank.get(h) and int(num_to_rank[h]) in [4,5,6,3] for h in entered_horses):
-        st.warning(f"💡 **推奨人気(4563)的中実績：{d.get('rec_hit')}**")
-    if a_m and b_m and c_m: st.warning(f"💡 **ＡＢＣワイド的中実績：{d.get('abc_wide')}**")
+for b_m and c_m: st.warning(f"💡 **ＡＢＣワイド的中実績：{d.get('abc_wide')}**")
 
     st.write("---")
     # 1頭ごとの詳細

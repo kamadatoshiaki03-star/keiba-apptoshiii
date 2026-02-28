@@ -1,4 +1,4 @@
-for b_m and c_m: st.warning(f"💡 **ＡＢＣワイド的中実績：{d.get('abc_wide')}**")
+b_m and c_m: st.warning(f"💡 **ＡＢＣワイド的中実績：{d.get('abc_wide')}**")
 
     st.write("---")
     # 1頭ごとの詳細
